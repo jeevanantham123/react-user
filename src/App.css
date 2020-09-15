@@ -1,16 +1,41 @@
 .App {
   text-align: center;
 }
-
+body{
+  background: rgb(50,173,97);
+  background: linear-gradient(90deg, rgba(50,173,97,1) 0%, rgba(53,227,172,1) 38%, rgba(57,195,223,1) 100%);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+header h3{
+  background-color: dodgerblue;
+  text-align:center;
+  height: 50px;
+}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.logout{
+  float:right;
+}
+a{
+  color:black;
+  text-decoration: underline;
+}
+@media all and (min-width: 480px) {
+  
+
+  .Login Form {
+    margin:0 auto;
+    max-width: 320px;
   }
+  
+
+  .signup Form {
+    margin:0 auto;
+    max-width: 320px;
+  }
+  
 }
 
 .App-header {
